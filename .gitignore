@@ -20,4 +20,6 @@
 
 # owb-config
 trunk/Base/owb-config.h
+trunk/Base/BALBase.h
+trunk/Base/WebKitTypes.h
 
