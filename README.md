@@ -23,10 +23,12 @@ Forked from https://github.com/weissms/owb-mirror .
 	-	libpng12 (`pkg_check_modules`)
 	-	JPEG (`find_package`)
 
+
 * compile flags ;
 `-w`
 `-std=c++11`
 `-std=c99`
+
 
 * how to build ;
 
@@ -34,7 +36,15 @@ Forked from https://github.com/weissms/owb-mirror .
 	mkdir ../build-axSurf
 	cd ../build-axSurf
 	cmake ../axSurface/trunk
-	make
+	make all
 ```
+
+* running the owb browser ;
+
+```shell
+	./bin/owb https://www.wikipedia.org
+```
+
+![](1.png)
 
 

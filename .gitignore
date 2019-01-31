@@ -24,3 +24,4 @@ trunk/Base/BALBase.h
 trunk/Base/WebKitTypes.h
 trunk/WebKit/OrigynWebBrowser/webkit-owb.pc
 
+trunk/cmake/FindICU.cmake
