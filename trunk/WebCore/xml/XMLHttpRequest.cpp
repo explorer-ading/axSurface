@@ -847,6 +847,13 @@ int XMLHttpRequest::status(ExceptionCode& ec) const
         ec = INVALID_STATE_ERR;
     }
 
+	/* adingx add start */
+#if ENABLE(OFFLINE_WEB_APPLICATIONS)
+	if( m_state == DONE)
+		return 200;
+#endif
+	/* adingx add end */
+
     return 0;
 }
 
